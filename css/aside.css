@@ -1,0 +1,16 @@
+aside{
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 12%;
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+}
+
+aside span{
+    display: block;
+}
+

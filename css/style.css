@@ -1,26 +1,56 @@
+@import "nav.css";
+@import "uslugi.css";
+@import "aside.css";
+@import "footer.css";
+
+:root{
+    --bgColor: ghostwhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: gray;
+    height: 200vh;
+    background-image: url('../img/bg3.jpg');
+    background-size: 100%;
 }
 
-
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    align-content: stretch;
-}
-
-li{
-    display: block;
-    align-self: auto;
-    background-color: #000;
-    list-style: none;
+h3{
+    text-transform: uppercase;
+    color: cornflowerblue;
     text-align: center;
 }
-a{
-     font-family: Arial;
-     font-size: 24px;
-     text-decoration: none;
-     color: white;
- }
+
+nav{
+    position: fixed;
+    left: 10%;
+    top: 1%;
+    width: 80%;
+    height: 10%;
+    background-color: var(--bgColor);
+    z-index: 1;
+}
+
+section{
+    display: none;
+    position: absolute;
+    background-color: var(--bgColor);
+    color: white;
+    width: 80%;
+    left: 10%;
+}
+
+.sprzedaz{
+    display: block;
+    top: 100%;
+}
+
+
+
+
+
+

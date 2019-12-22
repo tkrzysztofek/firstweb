@@ -1,0 +1,44 @@
+
+nav ul{
+    display: flex;
+    transform: translateY(10%);
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--bgColor);
+}
+
+nav li:first-child{
+    margin-right: 15%;
+}
+
+nav li{
+    display: flex;
+    align-self: auto;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+nav li:hover{
+    border-bottom: 4px solid cornflowerblue;
+    border-top: 4px solid var(--bgColor);
+}
+
+nav li:first-child:hover{
+    border: 0px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px gray;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
