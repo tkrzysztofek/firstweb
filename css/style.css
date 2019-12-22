@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+li{
+    display: block;
+    align-self: auto;
+    background-color: #000;
+    list-style: none;
+    text-align: center;
+}
+a{
+     font-family: Arial;
+     font-size: 24px;
+     text-decoration: none;
+     color: white;
+ }
