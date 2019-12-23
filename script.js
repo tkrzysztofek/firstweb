@@ -1,15 +1,25 @@
-const naprawaBtn = document.querySelector('.uslugi');
+const mechannicBtn = document.querySelector('.navMechanics');
+const galleryBtn = document.querySelector('.navGallery');
+const contactBtn = document.querySelector('.navContact');
 
-const uslugiSection = document.querySelector('.samochody');
+const mechanicsSection = document.querySelector('.mechanics');
+const gallerySection = document.querySelector('.carGallery');
+const contactSection = document.querySelector('.contact');
 
+$('.navGallery').on('click', function () {
+    const offset = gallerySection.offsetTop;
+    $('html,body').animate({scrollTop: offset} );
+})
 
-naprawaBtn.addEventListener('click',()=>{
-    console.log(uslugiSection.offsetTop);
+$('.navMechanics').on('click', function () {
+    const offset = mechanicsSection.offsetTop;
+    $('html,body').animate({scrollTop: offset} );
+})
+
+$('.navContact').on('click', function () {
+    const offset = contactSection.offsetTop;
+    $('html,body').animate({scrollTop: offset} );
 })
 
 
 
-window.addEventListener('scroll', ()=>{
-
-    // console.log(this.scrollY)
-})

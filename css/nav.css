@@ -1,7 +1,7 @@
 
 nav ul{
     display: flex;
-    transform: translateY(10%);
+    margin: 1.4% auto;
     align-items: center;
     justify-content: space-around;
     background-color: var(--bgColor);
@@ -34,11 +34,16 @@ img{
     width: 100px;
 }
 
-a{
+nav span{
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     text-shadow: 1px 1px gray;
     color: black;
     font-size: 24px;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
+
+
+
