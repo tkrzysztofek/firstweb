@@ -8,18 +8,21 @@ const contactSection = document.querySelector('.contact');
 
 $('.navGallery').on('click', function () {
     const offset = gallerySection.offsetTop;
-    $('html,body').animate({scrollTop: offset} );
+    $('html,body').animate({
+        scrollTop: offset
+    });
 })
 
 $('.navMechanics').on('click', function () {
     const offset = mechanicsSection.offsetTop;
-    $('html,body').animate({scrollTop: offset} );
+    $('html,body').animate({
+        scrollTop: offset
+    });
 })
 
 $('.navContact').on('click', function () {
     const offset = contactSection.offsetTop;
-    $('html,body').animate({scrollTop: offset} );
+    $('html,body').animate({
+        scrollTop: offset
+    });
 })
-
-
-

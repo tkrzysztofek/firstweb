@@ -1,0 +1,20 @@
+section.carGallery {
+    color: red;
+    background-color: #303030;
+    /* background-image: url('../img/bg4.jpg'); */
+    background-size: cover;
+}
+
+div.photos {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    left: 10%;
+    height: 200px;
+    background-color: deepskyblue;
+}
+
+.photos img {
+    left: 0;
+}

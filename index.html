@@ -6,76 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Automechanika</title>
+    <link href="../dist/css/lightbox.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Chivo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
-
-<nav>
-    <ul>
-        <li><img src="img/small_nav.jpg"/></li>
-        <li><span class="navMechanics">Mechanika</span></li>
-        <li><span class="navGallery">Sprzedaż samochodów</span></li>
-        <li><span class="navContact">Kontakt</span></li>
-    </ul>
-</nav>
-
-
-<section class="mechanics">
-    <div class="serviceList">
-        <h3>Zakres usług:</h3>
-        <hr>
+    <nav>
         <ul>
-            <li>Diagnostyka komputerowa</li>
-            <li>Serwis opon</li>
-            <li>Kontrola zawieszenia</li>
-            <li>Serwis klimatyzacji</li>
-            <li>Naprawy powypadkowe</li>
-            <li>Diagnostyka komputerowa</li>
-            <li>Serwis opon</li>
-            <li>Kontrola zawieszenia</li>
-            <li>Serwis klimatyzacji</li>
-            <li>Naprawy powypadkowe</li>
+            <li><img src="img/tools1.png" /></li>
+            <li><span class="navMechanics">Mechanika </span></li>
+            <li><span class="navGallery">Sprzedaż samochodów </span></li>
+            <li><span class="navContact">Kontakt </span></li>
         </ul>
-    </div>
+    </nav>
 
-    <aside class="workhours">
-        <h3>Godziny pracy:</h3>
-        <hr>
-        <span>Poniedziałek 8:00 - 17:00</span>
-        <span>Wtorek 8:00 - 17:00</span>
-        <span>Środa 8:00 - 17:00</span>
-        <span>Czwartek 8:00 - 17:00</span>
-        <span>Piątek 8:00 - 17:00</span>
-        <span>Sobota 8:00 - 13:00</span>
-        <span>Niedziela <i>zamknięte</i></span>
-    </aside>
-</section>
+    <section class="mechanics">
+        <div class="serviceList">
+            <h3>Zakres usług:</h3>
+            <hr>
+            <ul>
+                <li>Diagnostyka komputerowa</li>
+                <li>Serwis opon</li>
+                <li>Kontrola zawieszenia</li>
+                <li>Serwis klimatyzacji</li>
+                <li>Naprawy powypadkowe</li>
+                <li>Diagnostyka komputerowa</li>
+                <li>Serwis opon</li>
+                <li>Kontrola zawieszenia</li>
+                <li>Serwis klimatyzacji</li>
+                <li>Naprawy powypadkowe</li>
+            </ul>
+        </div>
 
-<section class="carGallery">
-    <h3>Aktualnie na sprzedaż</h3>
-    <hr>
-    <div class="photos">
-        <a href="img/seat.png"><img src="img/seat.png"/></a>
-        <a href="img/vw.jpg"><img src="img/vw.jpg"/></a>
-        <a href="img/toyota.png"><img src="img/toyota.png"/></a>
-    </div>
+        <aside class="workhours">
+            <h3>Godziny pracy:</h3>
+            <hr>
+            <table>
+                <tr>
+                    <td>
+                        <span>Poniedziałek: </span>
+                        <span>Wtorek: </span>
+                        <span>Środa: </span>
+                        <span>Czwartek: </span>
+                        <span>Piątek: </span>
+                        <span>Sobota: </span>
+                        <span>Niedziela: </span>
+                    </td>
+                    <td>
+                        <span>8:00 - 17:00 </span>
+                        <span>8:00 - 17:00 </span>
+                        <span>8:00 - 17:00 </span>
+                        <span>8:00 - 17:00 </span>
+                        <span>8:00 - 17:00 </span>
+                        <span>8:00 - 13:00 </span>
+                        <span><i>zamknięte</i></span>
+                    </td>
+                </tr>
+            </table>
 
-</section>
+        </aside>
+    </section>
 
-<section class="contact">
-    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In iste nihil quaerat, quam similique suscipit ullam veritatis voluptas! Commodi, molestias?</span>
-</section>
+    <section class="carGallery">
+        <h3>Aktualnie na sprzedaż</h3>
+        <div class="photos">
+            <a href="img/seat.png" data-lightbox="image-1" data-title="My caption"><img src="img/seat.png"></a>
+            <a href="img/vw.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/vw.jpg" /></a>
+            <a href="img/toyota.png" data-lightbox="image-1" data-title="My caption"><img src="img/toyota.png" /></a>
+
+        </div>
+
+    </section>
+
+    <section class="contact">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7667.747199143348!2d20.91533238146542!3d51.12739630607313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471838c8fcdbddb3%3A0xcb4352cec04d80f!2sNaprawa%20pojazd%C3%B3w!5e0!3m2!1spl!2spl!4v1577261816773!5m2!1spl!2spl"></iframe>
+        </div>
+        <div class="address">
+            <h3>Adres:</h3>
+            <hr>
+            <span>Graniczna 19
+                26-115 Skarżysko Kościelne
+                Polska: </span>
+            <h3>Telefon:</h3>
+            <hr>
+            <span>123 456 789: </span>
+        </div>
+
+    </section>
+
+    <footer>
+        <span>123123123 Mechanik: </span>
+    </footer>
 
 
-<footer>
-    <span>Franicszek Mechanik</span>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+    </script>
+    <script src="../dist/js/lightbox.min.js">
+    </script>
+    <script src="script.js">
+    </script>
 </body>
 
 </html>
