@@ -1,0 +1,38 @@
+section.contact {
+    background-color: #303030;
+    /* background-image: url('../img/bg4.jpg'); */
+    background-size: cover;
+}
+
+div.map {
+    position: absolute;
+    left: 10%;
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+
+
+div.map iframe {
+    width: 90%;
+    height: 90%;
+}
+
+div.address {
+    position: absolute;
+    right: 10%;
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div.address span {
+    display: block;
+    color: black;
+}

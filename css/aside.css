@@ -1,17 +1,21 @@
-aside{
+aside {
     display: block;
     position: absolute;
-    right: 10%;
-    top: 12%;
-    width: 25%;
+    right: 15%;
+    top: 15%;
+    width: 20%;
     background-color: white;
-    text-align: center;
-    font-size: 24px;
-    font-family: Arial;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
 }
 
-aside span{
+aside span {
     display: block;
     color: black;
 }
 
+tbody {
+    width: 100%;
+    display: table;
+}

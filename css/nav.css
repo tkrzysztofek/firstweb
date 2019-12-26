@@ -1,17 +1,25 @@
+nav {
+    position: fixed;
+    left: 15%;
+    top: 1%;
+    width: 70%;
+    background-color: var(--bgColor);
+    z-index: 1;
+}
 
-nav ul{
+nav ul {
     display: flex;
-    margin: 1.4% auto;
+    margin: 1% auto;
     align-items: center;
     justify-content: space-around;
     background-color: var(--bgColor);
 }
 
-nav li:first-child{
+nav li:first-child {
     margin-right: 15%;
 }
 
-nav li{
+nav li {
     display: flex;
     align-self: auto;
     align-items: center;
@@ -19,31 +27,30 @@ nav li{
     text-align: center;
 }
 
-nav li:hover{
+nav li:hover {
     border-bottom: 4px solid cornflowerblue;
     border-top: 4px solid var(--bgColor);
 }
 
-nav li:first-child:hover{
+nav li:first-child:hover {
     border: 0px;
 }
 
-img{
+img {
     display: block;
     margin: 0 auto;
-    width: 100px;
+    height: 3vw;
+
 }
 
-nav span{
+nav span {
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    text-shadow: 1px 1px gray;
+    font-weight: bold;
+    /* text-shadow: 1px 1px gray; */
     color: black;
-    font-size: 24px;
+    font-size: 1.5em;
     text-decoration: none;
     scroll-behavior: smooth;
 }
-
-
-
