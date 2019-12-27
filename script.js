@@ -3,7 +3,7 @@ const galleryBtn = document.querySelector('.navGallery');
 const contactBtn = document.querySelector('.navContact');
 
 const mechanicsSection = document.querySelector('.mechanics');
-const gallerySection = document.querySelector('.carGallery');
+const gallerySection = document.querySelector('.carShop');
 const contactSection = document.querySelector('.contact');
 
 $('.navGallery').on('click', function () {

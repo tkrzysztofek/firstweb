@@ -1,6 +1,6 @@
 nav {
     position: fixed;
-    left: 15%;
+    left: var(--sectionMargins);
     top: 1%;
     width: 70%;
     background-color: var(--bgColor);
@@ -17,6 +17,8 @@ nav ul {
 
 nav li:first-child {
     margin-right: 15%;
+    padding: 1% 0 ;
+    cursor: default;
 }
 
 nav li {
@@ -25,10 +27,18 @@ nav li {
     align-items: center;
     list-style: none;
     text-align: center;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 1.8em;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 nav li:hover {
-    border-bottom: 4px solid cornflowerblue;
+    border-bottom: 4px solid var(--fontColor);
     border-top: 4px solid var(--bgColor);
 }
 
@@ -36,21 +46,25 @@ nav li:first-child:hover {
     border: 0px;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    height: 3vw;
+/*img {*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+/*    height: 3vw;*/
+/*}*/
 
+nav i{
+    font-size: 1.5em;
+    margin-right: 5px;
 }
 
 nav span {
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    /* text-shadow: 1px 1px gray; */
-    color: black;
-    font-size: 1.5em;
-    text-decoration: none;
-    scroll-behavior: smooth;
+    /*font-family: 'Roboto', sans-serif;*/
+    /*text-transform: uppercase;*/
+    /*font-weight: bold;*/
+    /*color: black;*/
+    /*font-size: 1.5em;*/
+    /*text-decoration: none;*/
+    /*scroll-behavior: smooth;*/
 }
+
+

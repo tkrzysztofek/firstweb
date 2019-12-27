@@ -1,20 +1,57 @@
-section.carGallery {
-    color: red;
+section.carShop {
+    color: black;
     background-color: #303030;
     /* background-image: url('../img/bg4.jpg'); */
     background-size: cover;
 }
 
-div.photos {
+div.carList {
     position: absolute;
     display: flex;
-    flex-direction: row;
-    width: 80vw;
-    left: 10%;
-    height: 200px;
+    flex-direction: column;
+    left: var(--sectionMargins);
+    right: var(--sectionMargins);
+    height: 90%;
     background-color: deepskyblue;
 }
 
-.photos img {
-    left: 0;
+div.car{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+    border: 2px solid black;
 }
+
+div.photo{
+    width: 30%;
+}
+
+div.car div.photo img{
+    width: 100%;
+}
+
+div.desc1{
+    width: 30%;
+}
+
+div.desc1 ul{
+    margin-left: 10%;
+    height: 100%;
+}
+
+div.desc1 li:nth-child(1){
+    font-size: 2.5em;
+    list-style-type: none;
+}
+
+div.desc1 li{
+    font-size: 2em;
+    /*list-style-type: none;*/
+}
+
+
+
+

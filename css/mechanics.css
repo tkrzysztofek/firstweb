@@ -8,7 +8,7 @@ div.serviceList {
     position: absolute;
     background-color: rgba(0, 0, 0, .7);
     top: 15%;
-    left: 15%;
+    left: var(--sectionMargins);
     width: 40%;
     font-family: Arial;
     font-size: 1.5em;

@@ -7,4 +7,10 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: var(--bgColor);
+    font-size: 1.4em;
 }
+
+footer i{
+    padding-left: 10px;
+}
+

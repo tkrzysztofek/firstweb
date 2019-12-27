@@ -6,110 +6,202 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Automechanika</title>
-    <link href="../dist/css/lightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+          crossorigin="anonymous">
+    <link href="dist/css/lightbox.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Chivo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav>
+<nav>
+    <ul>
+        <li><i class="fas fa-phone-volume"></i><span> 132 456 789</span></li>
+        <li><span class="navMechanics">Mechanika </span></li>
+        <li><span class="navGallery">Sprzedaż samochodów </span></li>
+        <li><span class="navContact">Kontakt </span></li>
+    </ul>
+</nav>
+
+<section class="mechanics">
+    <div class="serviceList">
+        <h3>Zakres usług:</h3>
+        <hr>
         <ul>
-            <li><img src="img/tools1.png" /></li>
-            <li><span class="navMechanics">Mechanika </span></li>
-            <li><span class="navGallery">Sprzedaż samochodów </span></li>
-            <li><span class="navContact">Kontakt </span></li>
+            <li>Diagnostyka komputerowa</li>
+            <li>Serwis opon</li>
+            <li>Kontrola zawieszenia</li>
+            <li>Serwis klimatyzacji</li>
+            <li>Naprawy powypadkowe</li>
+            <li>Diagnostyka komputerowa</li>
+            <li>Serwis opon</li>
+            <li>Kontrola zawieszenia</li>
+            <li>Serwis klimatyzacji</li>
+            <li>Naprawy powypadkowe</li>
         </ul>
-    </nav>
+    </div>
 
-    <section class="mechanics">
-        <div class="serviceList">
-            <h3>Zakres usług:</h3>
-            <hr>
-            <ul>
-                <li>Diagnostyka komputerowa</li>
-                <li>Serwis opon</li>
-                <li>Kontrola zawieszenia</li>
-                <li>Serwis klimatyzacji</li>
-                <li>Naprawy powypadkowe</li>
-                <li>Diagnostyka komputerowa</li>
-                <li>Serwis opon</li>
-                <li>Kontrola zawieszenia</li>
-                <li>Serwis klimatyzacji</li>
-                <li>Naprawy powypadkowe</li>
-            </ul>
+    <aside class="workhours">
+        <h3>Godziny pracy:</h3>
+        <hr>
+        <table>
+            <tr>
+                <td>
+                    <span>Poniedziałek: </span>
+                    <span>Wtorek: </span>
+                    <span>Środa: </span>
+                    <span>Czwartek: </span>
+                    <span>Piątek: </span>
+                    <span>Sobota: </span>
+                    <span>Niedziela: </span>
+                </td>
+                <td>
+                    <span>8:00 - 17:00 </span>
+                    <span>8:00 - 17:00 </span>
+                    <span>8:00 - 17:00 </span>
+                    <span>8:00 - 17:00 </span>
+                    <span>8:00 - 17:00 </span>
+                    <span>8:00 - 13:00 </span>
+                    <span><i>zamknięte</i></span>
+                </td>
+            </tr>
+        </table>
+
+    </aside>
+</section>
+
+<section class="carShop">
+    <h1>Aktualnie na sprzedaż</h1>
+
+    <div class="carList">
+        <div class="car">
+            <div class="photo">
+                <a href="img/seat1.webp" data-lightbox="image-seat">
+                    <img src="img/seat1.webp"></a>
+                <a href="img/seat2.webp" data-lightbox="image-seat" />
+                <a href="img/seat3.webp" data-lightbox="image-seat" />
+            </div>
+            <div class="desc1">
+                <ul>
+                    <li>SEAT</li>
+                    <li>25000 PLN</li>
+                    <li>2016</li>
+                    <li>8300 km</li>
+                    <li>Benzyna</li>
+                </ul>
+            </div>
+            <div class="desc2">
+                <ul>
+                    <li>Skrzynia biegów</li>
+                    <li>Typ</li>
+                    <li>Liczba drzwi</li>
+                    <li>Liczba miejsc</li>
+                    <li>Kolor</li>
+                    <li>Kraj pochodzenia</li>
+                    <li>Zarejestrowany w Polsce</li>
+                    <li>Pierwszy właściciel</li>
+                    <li>Bezwypadkowy</li>
+                    <li>Serwisowany w ASO</li>
+                    <li>Stan</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="car">
+            <div class="photo"><a href="img/vw.jpg" data-lightbox="vw" data-title="My caption"><img
+                    src="img/vw.jpg"/></a></div>
+            <div class="desc1">
+                <ul>
+                    <li>VW</li>
+                    <li>30000 PLN</li>
+                    <li>2017</li>
+                    <li>5300 km</li>
+                    <li>Diesel</li>
+                </ul>
+            </div>
+            <div class="desc2">
+                <ul>
+                    <li>Skrzynia biegów</li>
+                    <li>Typ</li>
+                    <li>Liczba drzwi</li>
+                    <li>Liczba miejsc</li>
+                    <li>Kolor</li>
+                    <li>Kraj pochodzenia</li>
+                    <li>Zarejestrowany w Polsce</li>
+                    <li>Pierwszy właściciel</li>
+                    <li>Bezwypadkowy</li>
+                    <li>Serwisowany w ASO</li>
+                    <li>Stan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="car">
+            <div class="photo"><a href="img/toyota.png" data-lightbox="toyota" data-title="My caption"><img
+                    src="img/toyota.png"/></a></div>
+            <div class="desc1">
+                <ul>
+                    <li>Toyota</li>
+                    <li>20000 PLN</li>
+                    <li>2015</li>
+                    <li>10000 km</li>
+                    <li>Benzyna+LPG</li>
+                </ul>
+            </div>
+            <div class="desc2">
+                <ul>
+                    <li>Skrzynia biegów</li>
+                    <li>Typ</li>
+                    <li>Liczba drzwi</li>
+                    <li>Liczba miejsc</li>
+                    <li>Kolor</li>
+                    <li>Kraj pochodzenia</li>
+                    <li>Zarejestrowany w Polsce</li>
+                    <li>Pierwszy właściciel</li>
+                    <li>Bezwypadkowy</li>
+                    <li>Serwisowany w ASO</li>
+                    <li>Stan</li>
+                </ul>
+            </div>
         </div>
 
-        <aside class="workhours">
-            <h3>Godziny pracy:</h3>
-            <hr>
-            <table>
-                <tr>
-                    <td>
-                        <span>Poniedziałek: </span>
-                        <span>Wtorek: </span>
-                        <span>Środa: </span>
-                        <span>Czwartek: </span>
-                        <span>Piątek: </span>
-                        <span>Sobota: </span>
-                        <span>Niedziela: </span>
-                    </td>
-                    <td>
-                        <span>8:00 - 17:00 </span>
-                        <span>8:00 - 17:00 </span>
-                        <span>8:00 - 17:00 </span>
-                        <span>8:00 - 17:00 </span>
-                        <span>8:00 - 17:00 </span>
-                        <span>8:00 - 13:00 </span>
-                        <span><i>zamknięte</i></span>
-                    </td>
-                </tr>
-            </table>
+    </div>
+</section>
 
-        </aside>
-    </section>
-
-    <section class="carGallery">
-        <h3>Aktualnie na sprzedaż</h3>
-        <div class="photos">
-            <a href="img/seat.png" data-lightbox="image-1" data-title="My caption"><img src="img/seat.png"></a>
-            <a href="img/vw.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/vw.jpg" /></a>
-            <a href="img/toyota.png" data-lightbox="image-1" data-title="My caption"><img src="img/toyota.png" /></a>
-
-        </div>
-
-    </section>
-
-    <section class="contact">
-        <div class="map">
-            <iframe
+<section class="contact">
+    <div class="map">
+        <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7667.747199143348!2d20.91533238146542!3d51.12739630607313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471838c8fcdbddb3%3A0xcb4352cec04d80f!2sNaprawa%20pojazd%C3%B3w!5e0!3m2!1spl!2spl!4v1577261816773!5m2!1spl!2spl"></iframe>
-        </div>
-        <div class="address">
-            <h3>Adres:</h3>
-            <hr>
-            <span>Graniczna 19
-                26-115 Skarżysko Kościelne
-                Polska: </span>
-            <h3>Telefon:</h3>
-            <hr>
-            <span>123 456 789: </span>
-        </div>
+    </div>
+    <div class="address">
+        <h3>Kontakt:</h3>
+        <hr>
+        <span>
+            Graniczna 19 <br>
+            26-115<br>
+            Skarżysko Kościelne <br>
+            <i class="far fa-envelope"></i> <a href="mailto:mail@mail.pl">mail@mail.pl</a><br>
 
-    </section>
+        <i class="fas fa-phone"></i> 123 456 789
+            </span>
+    </div>
 
-    <footer>
-        <span>123123123 Mechanik: </span>
+    <div class="contactPhoto">
+        <img src="img/real.jpg"/>
+    </div>
 
-    </footer>
+</section>
 
+<footer>
+    <span>Kazimierz </span><i class="fas fa-phone-volume"></i><span> 132 456 789</span>
+</footer>
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js">
-    </script>
-    <script src="../dist/js/lightbox.min.js">
-    </script>
-    <script src="script.js">
-    </script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js">
+</script>
+<script src="dist/js/lightbox.min.js">
+</script>
+<script src="script.js">
+</script>
 </body>
 
 </html>
