@@ -16,6 +16,18 @@ aside span {
 }
 
 tbody {
-    width: 100%;
-    display: table;
+    /*width: 100%;*/
+    /*display: table;*/
+}
+
+@media (max-width: 1317px) {
+    aside {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1057px) {
+    aside {
+        font-size: 1em;
+    }
 }

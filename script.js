@@ -1,28 +1,17 @@
 const mechannicBtn = document.querySelector('.navMechanics');
-const galleryBtn = document.querySelector('.navGallery');
+const galleryBtn = document.querySelector('.navShop');
 const contactBtn = document.querySelector('.navContact');
 
 const mechanicsSection = document.querySelector('.mechanics');
-const gallerySection = document.querySelector('.carShop');
+const carSection = document.querySelector('.shop');
 const contactSection = document.querySelector('.contact');
 
-$('.navGallery').on('click', function () {
-    const offset = gallerySection.offsetTop;
+$('nav span').on('click', function () {
+    const tempClassName = ($(this).attr('class'));
+    const className = '.' + tempClassName.substr(3, tempClassName.length).toLocaleLowerCase();
+    const offset = $(className).offset().top - 100;
     $('html,body').animate({
         scrollTop: offset
     });
 })
 
-$('.navMechanics').on('click', function () {
-    const offset = mechanicsSection.offsetTop;
-    $('html,body').animate({
-        scrollTop: offset
-    });
-})
-
-$('.navContact').on('click', function () {
-    const offset = contactSection.offsetTop;
-    $('html,body').animate({
-        scrollTop: offset
-    });
-})
