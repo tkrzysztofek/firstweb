@@ -1,17 +1,19 @@
-section.carShop {
+section.shop {
     color: black;
     background-color: #303030;
     /* background-image: url('../img/bg4.jpg'); */
     background-size: cover;
+    display: inline-block;
 }
 
 div.carList {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     left: var(--sectionMargins);
-    right: var(--sectionMargins);
+    width: 70%;
     height: 90%;
+    margin-bottom: 1%;
     background-color: deepskyblue;
 }
 
